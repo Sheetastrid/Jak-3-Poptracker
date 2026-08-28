@@ -1,0 +1,41 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "0, 0",
+        "item_size": "40,50",
+        "h_alignment": "left",
+        "rows": [
+          [
+            "JET-Board",
+            "war_amulet_3",
+            "war_amulet_1",
+            "war_amulet_2"
+          ],
+          [
+            "holo_cube",
+            "turret",
+            "prism",
+            "cypher_glyph"
+          ],
+          [
+            "beam_generator",
+            "seal_of_mar",
+            "time_map",
+            "quantum_reflector"
+          ],
+          [
+            "dark_crystal",
+            "",
+            "",
+            "light_crystal"
+          ]
+        ]
+      }
+    ]
+  }
+}

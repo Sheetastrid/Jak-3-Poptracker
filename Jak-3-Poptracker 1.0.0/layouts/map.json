@@ -1,0 +1,28 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Spargus",
+                "content": {
+                    "type": "map",
+                    "maps": ["Spargus"]
+                }    
+            },
+            {
+                "title": "Wasteland",
+                "content": {
+                    "type": "map",
+                    "maps": ["Wasteland"]
+                }    
+            },
+            {
+                "title": "Heaven City",
+                "content": {
+                    "type": "map",
+                    "maps": ["Heaven City"]
+                }    
+            }
+        ]
+    }
+}

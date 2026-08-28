@@ -1,0 +1,33 @@
+{
+  "vehicle_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "1,1",
+    "content": [
+            {
+                "type": "itemgrid",
+                "item_margin": "1.5, 0",
+                "item_size": "50,50",
+                "h_alignment": "left",
+                "rows": [
+                    [
+                       "puppy",
+                       "shark"
+                    ],
+                    [
+                        "hopper",
+                        "stomper"
+                    ],
+                    [
+                        "dozer",
+                        "screamer"
+                    ],
+                    [
+                        "demon",
+                        "seeker"
+                    ]
+                ]
+            }
+        ]
+    }
+}

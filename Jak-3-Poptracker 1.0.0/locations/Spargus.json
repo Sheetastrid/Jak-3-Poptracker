@@ -1,0 +1,368 @@
+[
+  {
+    "name": "Arena Missions",
+    "sections":[
+      {
+        "name": "Complete arena training course",
+        "item_count": 1
+      },
+      {
+        "name": "Earn 1st war amulet",
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 782,
+        "y": 210,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Catch kanga-rats",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 805,
+        "y": 265,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Unlock satellite",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 87,
+        "y": 260,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Garage Missions",
+    "access_rules": ["spargus_pass"],
+    "sections":[
+      {
+        "name": "Learn to Drive Vehicle",
+        "access_rules": ["puppy"],
+        "item_count": 1
+      },
+      {
+        "name": "Race for artifacts",
+        "access_rules": ["puppy"],
+        "item_count": 1
+      },
+      {
+        "name": "Destroy metal head beasts",
+        "access_rules": ["shark"],
+        "item_count": 1
+      },
+      {
+        "name": "Rescue wastelanders",
+        "access_rules": ["shark"],
+        "item_count": 1
+      },
+      {
+        "name": "Race for more artifacts",
+        "access_rules": ["shark"],
+        "item_count": 1
+      },
+      {
+        "name": "Defend Spargus' front gate",
+        "access_rules": ["gun_car"],
+        "item_count": 1
+      },
+      {
+        "name": "Chase down metal head beasts",
+        "access_rules": ["stomper"],
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 730,
+        "y": 670,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Beat monks in leaper race",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 715,
+        "y": 480,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Damas Missions",
+    "sections":[
+      {
+        "name": "Earn 2nd war amulet",
+        "item_count": 1
+      },
+      {
+        "name": "Defeat marauders in arena",
+        "access_rules": ["turret"],
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 507,
+        "y": 205,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Beat turret challenge",
+    "sections":[
+      {
+        "access_rules": ["turret"],
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 192,
+        "y": 220,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Defend Spargus from attack",
+    "sections":[
+      {
+        "access_rules": ["$is_turret_checked, turret, war_amulet_1, war_amulet_2"],
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 195,
+        "y": 180,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Ring Race #1",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 600,
+        "y": 358,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Precursor Challenge 2",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 400,
+        "y": 270,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Precursor Challenge 3",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 751,
+        "y": 562,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Precursor Challenge 4",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 803,
+        "y": 292,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Precursor Challenge 5",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 257,
+        "y": 455,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Precursor Challenge 6",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 940,
+        "y": 378,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Ring Race #3",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 150,
+        "y": 460,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Precursor Challenge 9",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 50,
+        "y": 225,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Spirit Chase #2",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 156,
+        "y": 310,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Precursor Challenge 11",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 872,
+        "y": 551,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Chase Timer Challenge #2",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 710,
+        "y": 600,
+        "size": 10
+      }
+    ]
+  },
+  {
+    "name": "Precursor Challenge 13",
+    "sections":[
+      {
+        "item_count": 1
+      }
+    ],
+    "map_locations":[
+      {
+        "map": "Spargus",
+        "x": 325,
+        "y": 460,
+        "size": 10
+      }
+    ]
+  }
+]

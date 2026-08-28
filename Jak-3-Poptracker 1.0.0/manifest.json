@@ -1,0 +1,19 @@
+{
+  "name": "Jak 3 Map Tracker",
+  "game_name": "Jak 3",
+  "package_version": "1.0.0",
+  "package_uid": "Jak_3",
+  "author": "Sheetah",
+  "min_poptracker_version": "0.25.9",
+  // put the version you tested against here!
+  "target_poptracker_version": "0.32.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        // enables AP autotracking interface - remove if not needed
+        "ap"
+      ]
+    }
+  }
+}
