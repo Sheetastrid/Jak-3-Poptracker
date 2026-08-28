@@ -1,0 +1,702 @@
+[
+    {
+        "name": "Haven's Port",
+        "access_rules": ["any_vehicle, spargus_pass, air_train_pass"],
+        "children": [
+            {
+                "name": "Side Challenge P1",
+                "sections":[
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 443,
+                        "y": 1140,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Side Challenge P2",
+                "sections":[
+                    {
+                        "access_rules": ["jet_board"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 150,
+                        "y": 1080,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Side Challenge P3",
+                "sections":[
+                    {
+                        "access_rules": ["$is_missile_checked, $is_sewer_checked"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 591,
+                        "y": 1080,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Side Challenge P4",
+                "sections":[
+                    {
+                        "access_rules": ["jet_board"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 425,
+                        "y": 960,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Side Challenge P5",
+                "sections":[
+                    {
+                        "access_rules": ["jet_board"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 276,
+                        "y": 945,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Destroy dark eco tanks",
+                "sections":[
+                    {
+                        "access_rules": ["$is_sewer_checked, Dark_Jak, Dark_Strike, mh_pass"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 240,
+                        "y": 778,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Destroy Metal Head tower",
+                "sections":[
+                    {
+                        "access_rules": ["Dark_Jak, Dark_Strike, mh_pass, Light_Jak, Light_Flight, any_gun"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 125,
+                        "y": 630,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Haven Forest",
+                "access_rules": ["Dark_Jak, Dark_Strike, mh_pass"],
+                "sections":[
+                    {
+                        "name": "Kill dark plants in forest",
+                        "access_rules": ["jet_board"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Destroy eco grid with Jinx",
+                        "access_rules": ["$is_sewer_checked, jet_board, any_gun, is_pass_A"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beat pillar ring challenges",
+                        "access_rules": ["$is_dark_plants_checked, jet_board, holo_cube, beam_generator, prism, quantum_reflector"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Activate Astro-Viewer in Haven Forest",
+                        "access_rules": ["$is_pillar_checked, time_map, holo_cube, beam_generator, prism, quantum_reflector, any_gun"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Destroy dark ship shield",
+                        "access_rules": ["$is_astro_viewer_checked, time_map, holo_cube, beam_generator, prism, quantum_reflector, any_gun"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 70,
+                        "y": 780,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Port Missions",
+                "sections":[
+                    {
+                        "name": "Destroy incoming blast bots",
+                        "access_rules": ["$is_sewer_checked, any_gun"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Destroy barrier with missile",
+                        "access_rules": ["$is_sewer_checked"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Defend Port from attack",
+                        "access_rules": ["any_gun"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Destroy sniper cannons",
+                        "access_rules": ["$is_sewer_checked, is_pass_A"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Break barrier with blast bot",
+                        "access_rules": ["$is_sewer_checked"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 376,
+                        "y": 945,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Gun Missions",
+                "sections":[
+                    {
+                        "name": "Beat gun course 1",
+                        "access_rules": ["yellow"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beat gun course 2",
+                        "access_rules": ["red"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 438,
+                        "y": 930,
+                        "size": 10
+                    }
+                ]
+            },
+            {
+                "name": "Reach Port via sewer",
+                "sections":[
+                    {
+                        "access_rules": ["jet_board"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Heaven City",
+                        "x": 407,
+                        "y": 307,
+                        "size": 10  
+                    }
+                ]
+            },
+            {
+                "name": "Industrial Section A",
+                "access_rules": ["is_pass_A"],
+                "children": [
+                    {
+                        "name": "Side Mission A2",
+                        "sections":[
+                            {
+                                "access_rules": ["jet_board"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Heaven City",
+                                "x": 780,
+                                "y": 860,
+                                "size": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Side Mission A3",
+                        "sections":[
+                            {
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Heaven City",
+                                "x": 836,
+                                "y": 830,
+                                "size": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Side Mission A4",
+                        "sections":[
+                            {
+                                "access_rules": ["$is_sewer_checked, jet_board"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Heaven City",
+                                "x": 756,
+                                "y": 803,
+                                "size": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Side Mission A5",
+                        "sections":[
+                            {
+                                "access_rules": ["jet_board"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Heaven City",
+                                "x": 720,
+                                "y": 749,
+                                "size": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Reach Metal Head area via sewer",
+                        "sections":[
+                            {
+                                "access_rules": ["any_gun, jet_board"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Heaven City",
+                                "x": 790,
+                                "y": 820,
+                                "size": 10
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Find cypher in eco grid",
+                        "sections":[
+                            {
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations":[
+                            {
+                                "map": "Heaven City",
+                                "x": 820,
+                                "y": 860,
+                                "size": 10
+                            }
+                        ]
+                    },
+                    {
+                        "access_rules": ["is_pass_B"],
+                        "children":[
+                            {
+                                "name": "Side Mission B1",
+                                "sections":[
+                                    {
+                                        "access_rules": ["jet_board"],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations":[
+                                    {
+                                        "map": "Heaven City",
+                                        "x": 800,
+                                        "y": 622,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Side Mission B2",
+                                "sections":[
+                                    {
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations":[
+                                    {
+                                        "map": "Heaven City",
+                                        "x": 745,
+                                        "y": 565,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Hijack eco vehicle",
+                                "sections":[
+                                    {
+                                        "access_rules": ["$is_sewer_checked"],
+                                        "item_count": 1
+                                    }
+                                ],
+                                "map_locations":[
+                                    {
+                                        "map": "Heaven City",
+                                        "x": 765,
+                                        "y": 602,
+                                        "size": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "access_rules": ["slum_pass"],
+                                "children":[
+                                    {
+                                        "name": "Side Mission S1",
+                                        "sections":[
+                                            {
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 705,
+                                                "y": 510,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Side Mission S2",
+                                        "sections":[
+                                            {
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 772,
+                                                "y": 481,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Side Mission S3",
+                                        "sections":[
+                                            {
+                                                "access_rules": ["$is_sewer_checked"],
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 776,
+                                                "y": 450,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Side Mission H1",
+                                        "sections":[
+                                            {
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 483,
+                                                "y": 269,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Side Mission H2",
+                                        "sections":[
+                                            {
+                                                "access_rules": ["$is_sewer_checked"],
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 530,
+                                                "y": 254,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Side Mission H3",
+                                        "sections":[
+                                            {
+                                                "access_rules": ["jet_board"],
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 481,
+                                                "y": 183,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Side Mission H4",
+                                        "sections":[
+                                            {
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 534,
+                                                "y": 139,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Side Mission H5",
+                                        "sections":[
+                                            {
+                                                "access_rules": ["jet_board"],
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 569,
+                                                "y": 31,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "HQ Missions",
+                                        "sections":[
+                                            {
+                                                "name": "Defend HQ from attack",
+                                                "access_rules": ["any_gun"],
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Find switch in sewers",
+                                                "access_rules": ["any_gun, jet_board"],
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Destroy war factory defenses",
+                                                "access_rules": ["any_gun, cypher_glyph"],
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Explore war factory",
+                                                "access_rules": ["$is_dwf_checked, any_gun, cypher_glyph"],
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Beat Cyber Errol boss",
+                                                "access_rules": ["$is_ewf_checked, any_gun, cypher_glyph"],
+                                                "item_count": 1
+                                            },
+                                            {
+                                                "name": "Blow open tower door",
+                                                "access_rules": ["mh_pass"],
+                                                "item_count": 1
+                                            }
+                                        ],
+                                        "map_locations":[
+                                            {
+                                                "map": "Heaven City",
+                                                "x": 607,
+                                                "y": 108,
+                                                "size": 10  
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "access_rules": ["ruins_pass"],
+                                        "children":[
+                                            {
+                                                "name": "Side Mission R1",
+                                                "sections":[
+                                                    {
+                                                        "access_rules": ["jet_board"],
+                                                        "item_count": 1
+                                                    }
+                                                ],
+                                                "map_locations":[
+                                                    {
+                                                        "map": "Heaven City",
+                                                        "x": 337,
+                                                        "y": 340,
+                                                        "size": 10  
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Side Mission R2",
+                                                "sections":[
+                                                    {
+                                                        "item_count": 1
+                                                    }
+                                                ],
+                                                "map_locations":[
+                                                    {
+                                                        "map": "Heaven City",
+                                                        "x": 374,
+                                                        "y": 296,
+                                                        "size": 10  
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Side Mission R3",
+                                                "sections":[
+                                                    {
+                                                        "access_rules": ["jet_board"],
+                                                        "item_count": 1
+                                                    }
+                                                ],
+                                                "map_locations":[
+                                                    {
+                                                        "map": "Heaven City",
+                                                        "x": 433,
+                                                        "y": 264,
+                                                        "size": 10  
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Side Mission R4",
+                                                "sections":[
+                                                    {
+                                                        "item_count": 1
+                                                    }
+                                                ],
+                                                "map_locations":[
+                                                    {
+                                                        "map": "Heaven City",
+                                                        "x": 463,
+                                                        "y": 208,
+                                                        "size": 10  
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Reach catacombs via palace ruins",
+                                                "sections":[
+                                                    {
+                                                        "access_rules": ["$is_dark_ship_checked, any_gun, war_amulet_1, war_amulet_2, war_amulet_3, jet_board, Light_Jak, Light_Flight, Dark_Jak, Dark_Strike"],
+                                                        "item_count": 1
+                                                    }
+                                                ],
+                                                "map_locations":[
+                                                    {
+                                                        "map": "Heaven City",
+                                                        "x": 670,
+                                                        "y": 440,
+                                                        "size": 10  
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Catacombs",
+                                                "access_rules": ["dark_crystal:4, light_crystal:4, $is_catacombs_checked, any_gun, dozer, shark, war_amulet_1, war_amulet_2, war_amulet_3, jet_board, Light_Jak, Light_Flight, Dark_Jak, Dark_Strike"],
+                                                "sections":[
+                                                    {
+                                                        "name": "Break through ruins",
+                                                        "item_count": 1
+                                                    },
+                                                    {
+                                                        "name": "Reach Precursor core",
+                                                        "item_count": 1
+                                                    },
+                                                    {
+                                                        "name": "Destroy dark ship",
+                                                        "item_count": 1
+                                                    },
+                                                    {
+                                                        "name": "Destroy final boss",
+                                                        "item_count": 1
+                                                    }
+                                                ],
+                                                "map_locations":[
+                                                    {
+                                                        "map": "Heaven City",
+                                                        "x": 215,
+                                                        "y": 190,
+                                                        "size": 10  
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }    
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

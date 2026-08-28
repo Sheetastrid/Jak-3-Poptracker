@@ -1,0 +1,33 @@
+{
+  "pass_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "itemgrid",
+        "item_margin": "-1, 1",
+        "item_size": "50,50",
+        "h_alignment": "left",
+        "rows": [
+            [
+              "is_pass_A",
+              "is_pass_B"
+            ],
+            [
+              "mh_pass",
+              "slum_pass"
+            ],
+            [
+              "ruins_pass",
+              "spargus_pass"
+            ],
+            [
+              "air_train_pass",
+              "sewer_pass"
+            ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "left",
+                "v_alignment": "left",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Powers",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "left",
+                "v_alignment": "left",
+                "key": "power_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Weapons",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "left",
+                "v_alignment": "left",
+                "key": "weapons_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Vehicles",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "left",
+                "v_alignment": "left",
+                "key": "vehicle_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Armors",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "left",
+                "v_alignment": "left",
+                "key": "armor_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Passes",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "left",
+                "v_alignment": "left",
+                "key": "pass_grid"
+              }
+            }
+          ]
+        },
+        {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "tabbed_maps_horizontal"
+          }
+        }    
+      ]
+    }
+  }
+}
