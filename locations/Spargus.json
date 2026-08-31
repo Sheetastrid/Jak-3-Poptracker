@@ -72,18 +72,8 @@
         "item_count": 1
       },
       {
-        "name": "Rescue wastelanders",
-        "access_rules": ["shark"],
-        "item_count": 1
-      },
-      {
         "name": "Race for more artifacts",
         "access_rules": ["shark"],
-        "item_count": 1
-      },
-      {
-        "name": "Defend Spargus' front gate",
-        "access_rules": ["gun_car"],
         "item_count": 1
       },
       {
@@ -127,6 +117,16 @@
       {
         "name": "Defeat marauders in arena",
         "access_rules": ["turret"],
+        "item_count": 1
+      },
+      {
+        "name": "Defend Spargus' front gate",
+        "access_rules": ["gun_car"],
+        "item_count": 1
+      },
+      {
+        "name": "Rescue wastelanders",
+        "access_rules": ["shark, spargus_pass"],
         "item_count": 1
       }
     ],
@@ -174,7 +174,7 @@
     ]
   },
   {
-    "name": "Ring Race #1",
+    "name": "Ring Race #4",
     "sections":[
       {
         "item_count": 1

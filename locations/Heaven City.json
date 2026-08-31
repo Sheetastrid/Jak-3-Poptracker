@@ -4,7 +4,7 @@
         "access_rules": ["any_vehicle, spargus_pass, air_train_pass"],
         "children": [
             {
-                "name": "Side Challenge P1",
+                "name": "Side Mission P1",
                 "sections":[
                     {
                         "item_count": 1
@@ -20,7 +20,7 @@
                 ]
             },
             {
-                "name": "Side Challenge P2",
+                "name": "Side Mission P2",
                 "sections":[
                     {
                         "access_rules": ["jet_board"],
@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "name": "Side Challenge P3",
+                "name": "Side Mission P3",
                 "sections":[
                     {
                         "access_rules": ["$is_missile_checked, $is_sewer_checked"],
@@ -54,7 +54,7 @@
                 ]
             },
             {
-                "name": "Side Challenge P4",
+                "name": "Side Mission P4",
                 "sections":[
                     {
                         "access_rules": ["jet_board"],
@@ -71,7 +71,7 @@
                 ]
             },
             {
-                "name": "Side Challenge P5",
+                "name": "Side Mission P5",
                 "sections":[
                     {
                         "access_rules": ["jet_board"],
@@ -192,8 +192,8 @@
                 "map_locations":[
                     {
                         "map": "Heaven City",
-                        "x": 376,
-                        "y": 945,
+                        "x": 255,
+                        "y": 950,
                         "size": 10
                     }
                 ]
@@ -232,8 +232,8 @@
                 "map_locations":[
                     {
                         "map": "Heaven City",
-                        "x": 407,
-                        "y": 307,
+                        "x": 366,
+                        "y": 220,
                         "size": 10  
                     }
                 ]
@@ -389,8 +389,8 @@
                                 "map_locations":[
                                     {
                                         "map": "Heaven City",
-                                        "x": 765,
-                                        "y": 602,
+                                        "x": 792,
+                                        "y": 588,
                                         "size": 10
                                     }
                                 ]

@@ -23,7 +23,6 @@
         "name": "Desert Time Trial",
         "sections":[
           {
-            "name": "race challenge 1",
             "item_count": 1
           }
         ],
@@ -330,6 +329,23 @@
             "map": "Wasteland",
             "x": 395,
             "y": 340,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Desert challenge 29",
+        "sections":[
+          {
+            "access_rules": ["jet_board"],
+            "item_count": 1
+          }
+        ],
+        "map_locations":[
+          {
+            "map": "Wasteland",
+            "x": 138,
+            "y": 515,
             "size": 10
           }
         ]
